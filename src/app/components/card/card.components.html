@@ -1,0 +1,40 @@
+<section class="flex gap-4 flex-wrap justify-center items-center">
+  @defer { @for (player of players; track player.id) {
+  <div class="flex justify-center flex-col h-100 w-100">
+    <figure class="relative w-full h-90">
+      @if(player.image === "#") {
+      <img
+        class="cursor-pointer aspect-square"
+        ngSrc="assets/images/placeholder.png"
+        alt="Image"
+        fill
+        priority
+      />
+      } @else {
+      <img
+        class="cursor-pointer aspect-square"
+        ngSrc="assets/images/{{ player.image }}"
+        alt="Image"
+        fill
+        priority
+      />
+      }
+    </figure>
+    <figcaption class="flex justify-center w-full">
+      <h1 class="font-bold">{{ player.name || 'No Name' }}</h1>
+    </figcaption>
+  </div>
+  } } @loading (minimum 2s) {
+  <img
+    class="cursor-progress aspect-square"
+    src="assets/images/loading.gif"
+    width="100"
+    height="100"
+    alt="Loading..."
+    fill
+    priority
+  />
+  } @placeholder {
+  <p>Pas de données pour l'instant.</p>
+  }
+</section>

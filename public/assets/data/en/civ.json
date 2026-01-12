@@ -1,0 +1,940 @@
+[
+  {
+    "team": {
+      "name": "Côte d'Ivoire",
+      "code": "CIV",
+      "flag": "https://flagcdn.com/ci.svg",
+      "continent": "Africa",
+      "foundedYear": 1960,
+      "fifaRanking": null
+    },
+    "competition": {
+      "name": "AFCON 2025",
+      "hostCountry": "Morocco",
+      "year": 2025
+    },
+    "coach": {
+      "id": 1,
+      "name": "Emerse Faé",
+      "role": "Head Coach",
+      "nationality": "Ivorian",
+      "age": null,
+      "image": "fae-emerse.webp",
+      "contract": {
+        "startDate": null,
+        "endDate": null
+      },
+      "stats": {
+        "matches": null,
+        "wins": null,
+        "draws": null,
+        "losses": null
+      }
+    },
+    "players": [
+      {
+        "id": 1,
+        "name": "Yahia Fofana",
+        "position": "Goalkeeper",
+        "club": "Çaykur Rizespor (Turkey)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 1,
+        "isCaptain": false,
+        "image": "yahia-fofana.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 2,
+        "name": "Mohamed Koné",
+        "position": "Goalkeeper",
+        "club": "Charleroi SC (Belgium)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 16,
+        "isCaptain": false,
+        "image": "mohamed-kone.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 3,
+        "name": "Alban Lafont",
+        "position": "Goalkeeper",
+        "club": "Panathinaikos (Greece)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 23,
+        "isCaptain": false,
+        "image": "alban-lafont.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 4,
+        "name": "Emmanuel Agbadou",
+        "position": "Defender",
+        "club": "Wolverhampton Wanderers (England)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 20,
+        "isCaptain": false,
+        "image": "emmanuel-agbadou.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 5,
+        "name": "Willy Boly",
+        "position": "Defender",
+        "club": "Nottingham Forest (England)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 12,
+        "isCaptain": false,
+        "image": "willy-bolly.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 6,
+        "name": "Ousmane Diomandé",
+        "position": "Defender",
+        "club": "Sporting CP (Portugal)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 2,
+        "isCaptain": false,
+        "image": "ousmane-diomande.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 7,
+        "name": "Guela Doué",
+        "position": "Defender",
+        "club": "RC Strasbourg (France)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 17,
+        "isCaptain": false,
+        "image": "guela-doue.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 8,
+        "name": "Ghislain Konan",
+        "position": "Defender",
+        "club": "Gil Vicente (Portugal)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 3,
+        "isCaptain": false,
+        "image": "ghislain-konan.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 9,
+        "name": "Odilon Kossounou",
+        "position": "Defender",
+        "club": "Atalanta BC (Italy)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 7,
+        "isCaptain": false,
+        "image": "odilon-kossounou.jpeg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 10,
+        "name": "Evan Ndicka",
+        "position": "Defender",
+        "club": "AS Roma (Italy)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 21,
+        "isCaptain": false,
+        "image": "evan-ndicka.jpeg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 11,
+        "name": "Christopher Operi",
+        "position": "Defender",
+        "club": "Istanbul Başakşehir (Turkey)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 13,
+        "isCaptain": false,
+        "image": "christopher-operi.jpg",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 12,
+        "name": "Seko Fofana",
+        "position": "Midfielder",
+        "club": "Stade Rennais (France)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 6,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 13,
+        "name": "Jean-Philippe Gbamin",
+        "position": "Midfielder",
+        "club": "FC Metz (France)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 25,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 14,
+        "name": "Christ Inao Oulaï",
+        "position": "Midfielder",
+        "club": "Trabzonspor (Turkey)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 19,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 15,
+        "name": "Franck Kessié",
+        "position": "Midfielder",
+        "club": "Al-Ahli (Saudi Arabia)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 8,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 16,
+        "name": "Ibrahim Sangaré",
+        "position": "Midfielder",
+        "club": "Nottingham Forest (England)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 18,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 17,
+        "name": "Jean-Michaël Seri",
+        "position": "Midfielder",
+        "club": "NK Maribor (Slovenia)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 4,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 18,
+        "name": "Vakoun Bayo",
+        "position": "Forward",
+        "club": "Udinese (Italy)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 9,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 19,
+        "name": "Oumar Diakité",
+        "position": "Forward",
+        "club": "Cercle Brugge (Belgium)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 14,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 10,
+        "name": "Amad Diallo",
+        "position": "Forward",
+        "club": "Manchester United (England)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 15,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 20,
+        "name": "Yan Diomande",
+        "position": "Forward",
+        "club": "RB Leipzig (Germany)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 26,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 21,
+        "name": "Sébastien Haller",
+        "position": "Forward",
+        "club": "FC Utrecht (Netherlands)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": null,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 22,
+        "name": "Jean-Philippe Krasso",
+        "position": "Forward",
+        "club": "Paris FC (France)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 11,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 23,
+        "name": "Bazoumana Touré",
+        "position": "Forward",
+        "club": "TSG 1899 Hoffenheim (Germany)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 24,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 24,
+        "name": "Wilfried Zaha",
+        "position": "Forward",
+        "club": "Charlotte FC (USA)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 10,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 25,
+        "name": "Amel Junior Zohouri",
+        "position": "...",
+        "club": "...",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 5,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      }
+    ],
+    "reserves": [
+      {
+        "id": 101,
+        "name": "Evann Guessand",
+        "position": "Forward",
+        "club": "Aston Villa (England)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": 22,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      },
+      {
+        "id": 102,
+        "name": "Parfait Guiagon",
+        "position": "Midfielder",
+        "club": "Royal Charleroi SC (Belgium)",
+        "nationality": "Ivorian",
+        "birthDate": null,
+        "age": null,
+        "heightCm": null,
+        "weightKg": null,
+        "preferredFoot": null,
+        "jerseyNumber": null,
+        "isCaptain": false,
+        "image": "#",
+        "social": {
+          "instagram": null,
+          "twitter": null
+        },
+        "stats": {
+          "caps": null,
+          "goals": 0,
+          "assists": 0,
+          "yellowCards": 0,
+          "redCards": 0,
+          "minutesPlayed": 0
+        },
+        "injuryStatus": {
+          "isInjured": false,
+          "description": null,
+          "expectedReturn": null
+        }
+      }
+    ],
+    "meta": {
+      "lastUpdated": "2026-01-10",
+      "dataSource": "Ibrahim DIABY",
+      "version": "0.0.1"
+    }
+  }
+]
