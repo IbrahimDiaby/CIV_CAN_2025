@@ -6,5 +6,5 @@ import { Component, signal } from '@angular/core';
   styleUrls: ["./../../app.css"],
 })
 export class Home {
-  message = signal<string>("Bienvenue sur l'app CAN 2025")
+  message = signal<string>("Bienvenue sur l'app CAN 2025 - Côte D'Ivoire")
 }
