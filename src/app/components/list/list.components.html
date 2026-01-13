@@ -1,9 +1,11 @@
 <section>
   @defer { @for (player of players; track player.id) {
   <p>
-    {{ player.jerseyNumber.toString() }} - {{ player.name.toString() }} -
+    {{ player.jerseyNumber!.toString() }} - {{ player.name.toString() }} -
     {{ player.position.toString() }}
   </p>
+  } @empty {
+    <p>Aucun joueur dans la base de données.</p>
   } } @loading (minimum 2s) {
   <img
     class="cursor-progress aspect-square"

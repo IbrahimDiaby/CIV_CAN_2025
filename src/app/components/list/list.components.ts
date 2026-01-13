@@ -1,33 +1,19 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, inject, input } from "@angular/core";
 import { PlayerInterface } from "../../utils/types";
+import { PlayersService } from "../../services/players/players";
 
 @Component({
-  selector: "player-card",
+  selector: "player-list",
+  standalone: true,
   templateUrl: "./list.components.html",
   styleUrls: ["./../../app.css"],
 })
 
-export class PlayersList implements OnInit {
-  protected players: Array<PlayerInterface> = [];
-  protected readonly fetchPlayers = async () => {
-    try {
-      const res = await fetch('assets/data/en/civ.json');
-      const data = await res.json();
-      this.players = [...data[0]['players'], ...data[0]['reserves']];
-      return this.players;
-    } catch (error) {
-      console.error(error);
-    }
-    return [];
-  };
+export class PlayersList {
+  playersService = inject(PlayersService);
+  players : Array<PlayerInterface> = [];
 
-  getPlayers = () => {
-    this.fetchPlayers();
-    return this.players;
-  };
-
-  //
   ngOnInit() {
-    this.fetchPlayers();
+    this.players = this.playersService.getPlayers();
   }
 }
