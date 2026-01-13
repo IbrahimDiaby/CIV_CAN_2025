@@ -749,7 +749,7 @@
         "preferredFoot": null,
         "jerseyNumber": 11,
         "isCaptain": false,
-        "image": "#",
+        "image": "jean-philippe-krasso.jpg",
         "social": {
           "instagram": null,
           "twitter": null
@@ -781,7 +781,7 @@
         "preferredFoot": null,
         "jerseyNumber": 24,
         "isCaptain": false,
-        "image": "#",
+        "image": "bazoumana-toure.jpeg",
         "social": {
           "instagram": null,
           "twitter": null
@@ -813,7 +813,7 @@
         "preferredFoot": null,
         "jerseyNumber": 10,
         "isCaptain": false,
-        "image": "#",
+        "image": "wilfried-zaha.jpg",
         "social": {
           "instagram": null,
           "twitter": null
@@ -835,8 +835,8 @@
       {
         "id": 25,
         "name": "Amel Junior Zohouri",
-        "position": "...",
-        "club": "...",
+        "position": "Defender",
+        "club": "Saburtalo FC",
         "nationality": "Ivorian",
         "birthDate": null,
         "age": null,
@@ -845,7 +845,7 @@
         "preferredFoot": null,
         "jerseyNumber": 5,
         "isCaptain": false,
-        "image": "#",
+        "image": "amel-junior-zohouri.jpeg",
         "social": {
           "instagram": null,
           "twitter": null
@@ -911,7 +911,7 @@
         "preferredFoot": null,
         "jerseyNumber": null,
         "isCaptain": false,
-        "image": "#",
+        "image": "parfait-guiagon.webp",
         "social": {
           "instagram": null,
           "twitter": null
