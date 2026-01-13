@@ -8,7 +8,6 @@ import { PlayerInterface } from '../../utils/types';
   standalone: true,
   templateUrl: "./card.components.html",
   styleUrls: ["./../../app.css"],
-  providers: [PlayersService],
   imports: [NgOptimizedImage],
 })
 

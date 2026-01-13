@@ -1,5 +1,30 @@
 <header class="py-4 flex gap-x-4 justify-center items-center">
-  <a class="rounded-2xl transition delay-75 duration-300 font-bold py-4 px-10 bg-orange-600 text-white cursor-pointer hover:bg-green-600 hover:text-white" routerLink="/">Home</a>
-  <a class="rounded-2xl transition delay-75 duration-300 font-bold py-4 px-10 bg-orange-600 text-white cursor-pointer hover:bg-green-600 hover:text-white" routerLink="/list">Liste</a>
-  <a class="rounded-2xl transition delay-75 duration-300 font-bold py-4 px-10 bg-orange-600 text-white cursor-pointer hover:bg-green-600 hover:text-white" routerLink="/card">Carte</a>
+  <a
+    routerLink="/"
+    (isActiveChange)="active.set(0)"
+    class="{{
+      active() === 0 ? 'bg-green-600' : 'bg-orange-600'
+    }} rounded-2xl transition delay-75 duration-300 font-bold py-4 px-10 text-white cursor-pointer hover:bg-green-600 hover:text-white"
+    routerLinkActive="bg-green-600"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Home</a
+  >
+  <a
+    routerLinkActive="bg-green-600"
+    (isActiveChange)="active.set(1)"
+    class="{{
+      active() === 1 ? 'bg-green-600' : 'bg-orange-600'
+    }} rounded-2xl transition delay-75 duration-300 font-bold py-4 px-10 text-white cursor-pointer hover:bg-green-600 hover:text-white"
+    routerLink="/list"
+    >Liste</a
+  >
+  <a
+    routerLinkActive="bg-green-600"
+    class="{{
+      active() === 2 ? 'bg-green-600' : 'bg-orange-600'
+    }} rounded-2xl transition delay-75 duration-300 font-bold py-4 px-10 text-white cursor-pointer hover:bg-green-600 hover:text-white"
+    routerLink="/card"
+    (isActiveChange)="active.set(2)"
+    >Carte</a
+  >
 </header>

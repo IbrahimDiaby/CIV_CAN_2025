@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CoachInterface, CompetitionInterface, MetaInterface, PlayerInterface, TeamInterface } from '../../utils/types';
-import playersData from "../../../../public/assets/data/en/civ.json";
+import playersData from "../../../../public/assets/data/civ.json";
 
 @Injectable({
   providedIn: 'root',

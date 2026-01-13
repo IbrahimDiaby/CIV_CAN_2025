@@ -1,15 +1,14 @@
-// import { NgOptimizedImage } from "@angular/common";
-import { Component } from "@angular/core";
-import { RouterLink } from "@angular/router";
+import { Component, signal } from "@angular/core";
+import { RouterModule } from "@angular/router";
 
 @Component({
   selector: "header-component",
+  standalone: true,
   templateUrl: "./header.component.html",
   styleUrls: ["./../../app.css"],
-  imports: [RouterLink],
-  // imports: [NgOptimizedImage],
+  imports: [RouterModule],
 })
-
 export class Header {
-
+  active = signal<number>(0);
+prev: any;
 }

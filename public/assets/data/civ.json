@@ -909,7 +909,7 @@
         "heightCm": null,
         "weightKg": null,
         "preferredFoot": null,
-        "jerseyNumber": null,
+        "jerseyNumber": 99,
         "isCaptain": false,
         "image": "parfait-guiagon.webp",
         "social": {
