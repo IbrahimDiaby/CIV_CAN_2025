@@ -45,6 +45,11 @@ export class PlayersService {
   };
   protected reserves : Array<PlayerInterface> = [];
 
+  getAll = () => {
+    this.players = [...playersData[0]["players"], ...playersData[0]["reserves"]];
+    return this.players;
+  }
+
   getPlayers = () => {
     this.players = [...playersData[0]["players"]];
     return this.players;

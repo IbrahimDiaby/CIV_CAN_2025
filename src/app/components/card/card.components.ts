@@ -17,6 +17,6 @@ export class PlayerCard implements OnInit {
   players : Array<PlayerInterface> = [];
 
   ngOnInit() {
-    this.players = this.playersService.getPlayers();
+    this.players = this.playersService.getAll();
   }
 }
