@@ -7,6 +7,11 @@
     both;
 }
 
+.visible {
+  animation: visible 1s cubic-bezier(0.175, 0.885, 0.52, 1.575) 1s 1 normal
+    both;
+}
+
 @keyframes card-animation {
   from {
     opacity: 0;
@@ -15,5 +20,40 @@
   to {
     opacity: 1;
     transition: translateX(0);
+  }
+}
+
+@keyframes visible {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50%{
+    opacity: 1;
+    transition: scale(100);
+  }
+  51%{
+    opacity: 0.5;
+    transition: scale(50);
+  }
+  60%{
+    opacity: 1;
+    transition: scale(100);
+  }
+  61%{
+    opacity: 0.5;
+    transition: scale(50);
+  }
+  70%{
+    opacity: 1;
+    transition: scale(100);
+  }
+  71%{
+    opacity: 0.5;
+    transition: scale(50);
+  }
+  to {
+    opacity: 1;
+    transition: scale(100);
   }
 }
