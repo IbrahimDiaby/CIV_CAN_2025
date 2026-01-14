@@ -2,7 +2,7 @@
   @defer { @for (player of players; track player.id) {
   <p
     style="--index: {{ $index + 1 }}"
-    class="animate-card"
+    class="font-bold animate-card"
   >
     {{ player.jerseyNumber!.toString() }} - {{ player.name.toString() }} -
     {{ player.position.toString() }}

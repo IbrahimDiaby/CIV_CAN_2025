@@ -715,7 +715,7 @@
         "heightCm": null,
         "weightKg": null,
         "preferredFoot": null,
-        "jerseyNumber": null,
+        "jerseyNumber": 22,
         "isCaptain": false,
         "image": "sebastien-haller.jpg",
         "social": {
@@ -909,7 +909,7 @@
         "heightCm": null,
         "weightKg": null,
         "preferredFoot": null,
-        "jerseyNumber": 99,
+        "jerseyNumber": 27,
         "isCaptain": false,
         "image": "parfait-guiagon.webp",
         "social": {

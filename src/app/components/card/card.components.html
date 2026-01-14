@@ -1,10 +1,13 @@
 <section class="flex gap-4 flex-wrap justify-center items-center">
   @defer { @for (player of players; track player.id) {
-  <div style="--index: {{ $index+1 }}" class="flex justify-center flex-col h-100 w-100 rounded-lg animate-card">
+  <div
+    style="--index: {{ $index + 1 }}"
+    class="p-0 bg-white flex justify-center flex-col h-100 w-100 rounded-lg animate-card"
+  >
     <figure class="relative w-full h-90">
       @if(player.image === "#") {
       <img
-        class="cursor-pointer aspect-square rounded-lg"
+        class="cursor-pointer w-full h-full aspect-square rounded-lg"
         ngSrc="assets/images/placeholder.png"
         alt="Image"
         fill
@@ -20,12 +23,14 @@
       />
       }
     </figure>
-    <figcaption class="flex justify-center w-full">
-      <h1 class="font-bold">{{ player.name || 'No Name' }}</h1>
+    <figcaption class="py-2 flex flex-col gap-y-2 items-center justify-center w-full">
+      <h1 class="text-xl font-bold">{{ player.name || 'No Name' }}</h1>
+      <h1 class="text-2xl text-green-400 font-bold">{{ player.jerseyNumber || 'No Jersey Number' }}</h1>
+      <h3 class="text-xl font-bold">{{ player.position || 'No Position' }}</h3>
     </figcaption>
   </div>
   } @empty {
-    <p>Aucun joueur dans la base de données.</p>
+  <p>Aucun joueur dans la base de données.</p>
   } } @loading (minimum 2s) {
   <img
     class="cursor-progress aspect-square"
