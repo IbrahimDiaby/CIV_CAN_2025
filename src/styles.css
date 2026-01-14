@@ -1,3 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "tailwindcss";
+@import 'tailwindcss';
+
+.animate-card {
+  animation: card-animation 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) calc(var(--index) * 1s) 1 normal
+    both;
+}
+
+@keyframes card-animation {
+  from {
+    opacity: 0;
+    transform: translateX(calc(-100%));
+  }
+  to {
+    opacity: 1;
+    transition: translateX(0);
+  }
+}
